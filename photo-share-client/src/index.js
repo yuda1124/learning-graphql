@@ -48,7 +48,6 @@ if (localStorage["apollo-cache-persist"]) {
 const client = new ApolloClient({
   cache,
   link,
-  connectToDevTools: true,
 });
 
 ReactDOM.render(
